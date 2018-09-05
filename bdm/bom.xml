@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<businessObjectModel modelVersion="1.0" productVersion="7.7.3">
+    <businessObjects>
+        <businessObject qualifiedName="com.company.model.Factura">
+            <fields>
+                <field type="STRING" length="255" name="cliente" nullable="true" collection="false"/>
+                <field type="DOUBLE" length="255" name="importe" nullable="true" collection="false"/>
+                <field type="INTEGER" length="255" name="descuento" nullable="true" collection="false"/>
+            </fields>
+            <uniqueConstraints/>
+            <queries/>
+            <indexes/>
+        </businessObject>
+    </businessObjects>
+</businessObjectModel>
