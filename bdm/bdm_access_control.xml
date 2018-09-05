@@ -13,5 +13,16 @@
                 <attribute name="descuento"/>
             </attributes>
         </rule>
+        <rule name="becarioVentas" usingDynamicProfiles="false">
+            <condition></condition>
+            <staticProfiles>
+                <profile>User</profile>
+            </staticProfiles>
+            <dynamicProfiles></dynamicProfiles>
+            <attributes businessObjectQualifiedName="com.company.model.Factura">
+                <attribute name="cliente"/>
+                <attribute name="importe"/>
+            </attributes>
+        </rule>
     </businessObjectRule>
 </accessControlModel>
